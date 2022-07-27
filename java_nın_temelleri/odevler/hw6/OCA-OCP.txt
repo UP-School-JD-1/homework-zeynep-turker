@@ -1,0 +1,39 @@
+a. Kolay: (Chapter 1 Java Basics) 1, 3, 5, 6,
+8, 9, 13, 20, 31, 35, 36, 38, 39, 42,
+(Chapter 6 Working Methods and
+Encapsulation) 25, 48
+b. Orta: 27
+c. Zor: 32, 49
+
+a)
+	1- B. public static void main()
+	3- C. .class
+	5- A. Objects are grouped as procedures, separate from the data they act on.
+	(gruplama objenin değişkenleri ve methodları arasında olur)
+	6- D. Local variables (local değişkenler bulundukları blok içerisinde geçerlidir)
+	8- C. # Add configuration value (# işareti javada yorum satırları için geçerli değildir)
+	9- D. It may define at most one public class. (.java dosyasında sadece bir tane public sınıf bulunabilir)
+	13- D. None are true. (java object oriented bir dildir. java komutu .class dosyasını çalıştırır
+	 ve javac komutu kodu, direk olarak makine koduna çevirmez bytecode a çevirir)
+	20- D. A semicolon (;)
+	31- B. Java allows method overloading.
+	35- A. //////// Walk my dog (// veya /* */)
+	36- B, C
+	38- A. A class declaration
+	39- D. .java
+	42- B. Object orientation
+	25- A. Go_$Outside$2() (-, sayı ile başlayan ve keyword içeren method ismi olamaz)
+	48- A. $sprint()
+
+b)	chapter 6 ya göre yapılmıştır
+	27- B
+	
+c)	chapter 6 ya göre yapılmıştır
+	32- B. One (super methodu constructor içerisinde çalışır fakat bulunduğu methodun dönüş değeri void yapıldığı için super() satırında hata alınır.)
+	49- B. Any subclass of Bouncer or any class in the same package as Bouncer (protected değişkenlere, bu sınıfı extend eden sınıflar ve 
+	sınıf ile aynı pakette bulunan sınıflar erişebilir)
+	
+ 
+
+
+

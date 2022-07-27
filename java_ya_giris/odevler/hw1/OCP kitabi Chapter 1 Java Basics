@@ -1,0 +1,18 @@
+OCA/OCP kitabı Chapter 1 Java Basics
+aşağıdaki soruları çözün:
+a. Kolay: 1, 16, 19, 23
+b. Orta: 24, 30
+c. Zor:
+
+a)
+    1- B. public static void main()
+        diğer şıklar main methodu tanımına uymuyordu. Sadece bu şıktaki uyuyor.
+    16- B.  javac Manager.java
+            java Manager
+
+    19- A. JVM ile uyumlu diğer bilgisayarlarda çalıştırılabilir
+    23- D. Platform independence (Java kodu platformdan bağımsız JVM ile uyumlu diğer bilgisayarlarda çalıştırılabilir)
+
+ b)
+    24- A. (çünkü JVM java bytecode un decoded veya uncompiled olmasını engellemez)
+    30- B. (javac ile .class dosyası(bytecode) oluşturulur ve java ile de .class çalıştırılır)
