@@ -1,0 +1,5 @@
+final keywordüne sahip değişkenlere değer bir kere verildikten sonra değerleri bir daha değişemezler. 
+
+Bu yüzden make, model, year değişkenleri final olarabilirler. Bunlar bir kere araba objesine atıldıktan sonra bir daha değişmelerine gerek kalmaz.
+
+Bu değişkenleri constructor ile alabilirsiniz.

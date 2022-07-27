@@ -1,0 +1,17 @@
+if(cardInfo.getTcCitizen()) {
+	if(formUtils.isNullOrEmptyString(verifyOtpWSResponse.getTckn()){
+		cardInfo.setIdNo(registrationForm.getTckn())
+	}
+	else {
+		cardInfo.setIdNo(verifyOtpWSResponse.getTckn())
+	}
+		
+}
+else {
+	if(formUtils.isNullOrEmptyString(verifyOtpWSResponse.getCustno())){
+		cardInfo.setIdNo(registrationForm.getTckn())
+	}
+	else{
+		cardInfo.setIdNo(verifyOtpWSResponse.getCustno())
+	}
+}
