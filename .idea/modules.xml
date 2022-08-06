@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/uygulamalar/AgeInterval/AgeInterval.iml" filepath="$PROJECT_DIR$/Chapter5/uygulamalar/AgeInterval/AgeInterval.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter6/odevler/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Chapter6/odevler/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter1/Chapter1.iml" filepath="$PROJECT_DIR$/Chapter1/Chapter1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter4/Chapter4.iml" filepath="$PROJECT_DIR$/Chapter4/Chapter4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/uygulamalar/Fibonacci/Fibonacci.iml" filepath="$PROJECT_DIR$/Chapter5/uygulamalar/Fibonacci/Fibonacci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter6/odevler/FindDivisors/FindDivisors.iml" filepath="$PROJECT_DIR$/Chapter6/odevler/FindDivisors/FindDivisors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/odevler/hw2/FindRootsQuadraticEquation/FindRootsQuadraticEquation.iml" filepath="$PROJECT_DIR$/Chapter5/odevler/hw2/FindRootsQuadraticEquation/FindRootsQuadraticEquation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/odevler/hw2/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/Chapter5/odevler/hw2/FizzBuzz/FizzBuzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter8/odevler/HW2/HW2.iml" filepath="$PROJECT_DIR$/Chapter8/odevler/HW2/HW2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter8/odevler/HW3/HW3.iml" filepath="$PROJECT_DIR$/Chapter8/odevler/HW3/HW3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter6/uygulamalar/MatrixMultiplication/MatrixMultiplication.iml" filepath="$PROJECT_DIR$/Chapter6/uygulamalar/MatrixMultiplication/MatrixMultiplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/odevler/hw3/MonteCarlo/MonteCarlo.iml" filepath="$PROJECT_DIR$/Chapter5/odevler/hw3/MonteCarlo/MonteCarlo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/odevler/hw3/PrimeNumber/PrimeNumber.iml" filepath="$PROJECT_DIR$/Chapter5/odevler/hw3/PrimeNumber/PrimeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/odevler/hw3/PrimeNumberCount/PrimeNumberCount.iml" filepath="$PROJECT_DIR$/Chapter5/odevler/hw3/PrimeNumberCount/PrimeNumberCount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/uygulamalar/Shapes/Shapes.iml" filepath="$PROJECT_DIR$/Chapter5/uygulamalar/Shapes/Shapes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter6/uygulamalar/ShapesWithArrays/ShapesWithArrays.iml" filepath="$PROJECT_DIR$/Chapter6/uygulamalar/ShapesWithArrays/ShapesWithArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter6/odevler/SieveOfEratosthenes/SieveOfEratosthenes.iml" filepath="$PROJECT_DIR$/Chapter6/odevler/SieveOfEratosthenes/SieveOfEratosthenes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UP-School.iml" filepath="$PROJECT_DIR$/.idea/UP-School.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/odevler/hw1/hw1.iml" filepath="$PROJECT_DIR$/Chapter5/odevler/hw1/hw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter3/odevler/hw1/hw11.iml" filepath="$PROJECT_DIR$/Chapter3/odevler/hw1/hw11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter3/odevler/hw2/hw2.iml" filepath="$PROJECT_DIR$/Chapter3/odevler/hw2/hw2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/odevler/hw2/hw21.iml" filepath="$PROJECT_DIR$/Chapter2/odevler/hw2/hw21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter3/odevler/hw3/hw3.iml" filepath="$PROJECT_DIR$/Chapter3/odevler/hw3/hw3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/odevler/hw3/hw31.iml" filepath="$PROJECT_DIR$/Chapter2/odevler/hw3/hw31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/odevler/hw4/hw4.iml" filepath="$PROJECT_DIR$/Chapter2/odevler/hw4/hw4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter3/odevler/hw4/hw41.iml" filepath="$PROJECT_DIR$/Chapter3/odevler/hw4/hw41.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/odevler/hw4/hw42.iml" filepath="$PROJECT_DIR$/Chapter5/odevler/hw4/hw42.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter2/uygulamalar/uygulamalar.iml" filepath="$PROJECT_DIR$/Chapter2/uygulamalar/uygulamalar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter3/uygulamalar/uygulamalar1.iml" filepath="$PROJECT_DIR$/Chapter3/uygulamalar/uygulamalar1.iml" />
+    </modules>
+  </component>
+</project>
