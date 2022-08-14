@@ -1,0 +1,53 @@
+public class Rectangle extends Shape {
+    private int edge1, edge2;
+
+    public Rectangle(int edge1, int edge2) {
+        super("Rectangle");
+        this.edge1 = edge1;
+        this.edge2 = edge2;
+    }
+
+    public int getEdge1() {
+        return edge1;
+    }
+
+    public int getEdge2() {
+        return edge2;
+    }
+
+    @Override
+    void draw() {
+        System.out.println("Rectangle is drawing..");
+    }
+
+    @Override
+    void erase() {
+        System.out.println("Rectangle is erasing..");
+    }
+
+    @Override
+    double calculateArea() {
+        return getEdge1() * getEdge2();
+    }
+
+    @Override
+    double calculateCircumference() {
+        return  2 * getEdge1() + 2 * getEdge2();
+    }
+
+    @Override
+    public int hashCode() {
+        return name.hashCode() + getEdge1() + getEdge2();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Rectangle rectangle = (Rectangle)obj;
+        return getEdge1() == rectangle.getEdge1() && getEdge2() == rectangle.getEdge2();
+    }
+
+    @Override
+    public String toString() {
+        return "Edge 1 : " + getEdge1() + " Edge 2 : " + getEdge2();
+    }
+}
