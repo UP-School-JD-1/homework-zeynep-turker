@@ -22,12 +22,14 @@ public class Square extends Shape {
 
     @Override
     double calculateArea() {
-        return Math.pow(getEdge(), 2);
+        area = Math.pow(getEdge(), 2);
+        return super.calculateArea();
     }
 
     @Override
     double calculateCircumference() {
-        return 4 * getEdge();
+        circumference = 4 * getEdge();
+        return super.calculateCircumference();
     }
 
     @Override

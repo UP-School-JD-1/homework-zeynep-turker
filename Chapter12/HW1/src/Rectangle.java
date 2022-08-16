@@ -27,12 +27,14 @@ public class Rectangle extends Shape {
 
     @Override
     double calculateArea() {
-        return getEdge1() * getEdge2();
+        area = getEdge1() * getEdge2();
+        return super.calculateArea();
     }
 
     @Override
     double calculateCircumference() {
-        return  2 * getEdge1() + 2 * getEdge2();
+        circumference =  2 * getEdge1() + 2 * getEdge2();
+        return super.calculateCircumference();
     }
 
     @Override

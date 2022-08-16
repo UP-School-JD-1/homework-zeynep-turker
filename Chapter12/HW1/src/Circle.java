@@ -22,12 +22,14 @@ public class Circle extends Shape {
 
     @Override
     double calculateArea() {
-        return Math.PI * (Math.pow(getRadius(), 2));
+        area = Math.PI * (Math.pow(getRadius(), 2));
+        return super.calculateArea();
     }
 
     @Override
     double calculateCircumference() {
-        return 2 * Math.PI * getRadius();
+        circumference = 2 * Math.PI * getRadius();
+        return super.calculateCircumference();
     }
 
     @Override

@@ -33,12 +33,14 @@ public class Triangle extends Shape {
     @Override
     double calculateArea() {
         double halfOfCircumference = calculateCircumference() / 2;
-        return Math.sqrt(halfOfCircumference * (halfOfCircumference - getEdge1()) * (halfOfCircumference - getEdge2()) * (halfOfCircumference - getEdge3()));
+        area = Math.sqrt(halfOfCircumference * (halfOfCircumference - getEdge1()) * (halfOfCircumference - getEdge2()) * (halfOfCircumference - getEdge3()));
+        return super.calculateArea();
     }
 
     @Override
     double calculateCircumference() {
-        return getEdge1() + getEdge2() + getEdge3();
+        circumference = getEdge1() + getEdge2() + getEdge3();
+        return super.calculateCircumference();
     }
 
     @Override

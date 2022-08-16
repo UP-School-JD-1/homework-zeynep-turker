@@ -1,5 +1,7 @@
 public class Shape {
     protected String name;
+    protected double circumference;
+    protected double area;
 
     public Shape(String name) {
         this.name = name;
@@ -14,10 +16,10 @@ public class Shape {
     }
 
     double calculateArea() {
-        return 0.0;
+        return area;
     }
 
     double calculateCircumference() {
-        return 0.0;
+        return circumference;
     }
 }
