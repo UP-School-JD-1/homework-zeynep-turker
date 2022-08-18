@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Triangle extends Shape {
     private int edge1, edge2, edge3;
 
@@ -45,11 +47,14 @@ public class Triangle extends Shape {
 
     @Override
     public int hashCode() {
-        return name.hashCode() + getEdge1() + getEdge2() + getEdge3();
+        return name.hashCode() + Objects.hash(getEdge1(), getEdge2(), getEdge3());
     }
 
     @Override
     public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null) return false;
+
         Triangle triangle = (Triangle) obj;
         return getEdge1() == triangle.getEdge1() && getEdge2() == triangle.getEdge2() && getEdge3() == triangle.getEdge3();
     }

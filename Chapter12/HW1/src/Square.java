@@ -39,8 +39,11 @@ public class Square extends Shape {
 
     @Override
     public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null) return false;
+
         Square square = (Square) obj;
-        return getEdge() == ((Square) obj).getEdge();
+        return getEdge() == square.getEdge();
     }
 
     @Override

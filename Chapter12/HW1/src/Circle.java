@@ -39,6 +39,9 @@ public class Circle extends Shape {
 
     @Override
     public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null) return false;
+
         Circle circle = (Circle) obj;
         return getRadius() == circle.getRadius();
     }

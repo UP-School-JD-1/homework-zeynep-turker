@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Rectangle extends Shape {
     private int edge1, edge2;
 
@@ -33,18 +35,21 @@ public class Rectangle extends Shape {
 
     @Override
     double calculateCircumference() {
-        circumference =  2 * getEdge1() + 2 * getEdge2();
+        circumference = 2 * getEdge1() + 2 * getEdge2();
         return super.calculateCircumference();
     }
 
     @Override
     public int hashCode() {
-        return name.hashCode() + getEdge1() + getEdge2();
+        return name.hashCode() + Objects.hash(getEdge1(), getEdge2());
     }
 
     @Override
     public boolean equals(Object obj) {
-        Rectangle rectangle = (Rectangle)obj;
+        if (this == obj) return true;
+        if (obj == null) return false;
+
+        Rectangle rectangle = (Rectangle) obj;
         return getEdge1() == rectangle.getEdge1() && getEdge2() == rectangle.getEdge2();
     }
 
